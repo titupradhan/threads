@@ -23,6 +23,7 @@ public class LongThreadSafe {
                 lt.assignValue(987);
             }
         };
+
         Runnable r2 = () -> {
             for (int i = 1; i < 99987328; i++) {
                 lt.printLong();
