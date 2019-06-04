@@ -27,4 +27,5 @@ public class MinimumJumpToReachEnd {
         }
         return minJumps;
     }
+
 }
